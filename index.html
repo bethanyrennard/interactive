@@ -7,35 +7,73 @@
     <link rel="stylesheet" href="assets/main.css" type="text/css" />
 </head>
 
-<body>
+<style>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height:90vh;
+  padding: 20px;
+}
 
-  generate<br>
-  p001...025 variations on a profile<br>
-  <a href="exercise-001">001</a><br>
-  <a href="exercise-002">002</a><br>
-  <a href="exercise-003">003</a><br>
-  <a href="exercise-004">004</a><br>
-  <a href="exercise-005">005</a><br>
-  <a href="exercise-006">006</a><br>
-  <a href="exercise-007">007</a><br>
-  <a href="exercise-008">008</a><br>
-  <a href="exercise-009">009</a><br>
-  <a href="exercise-010">010</a><br>
-  <a href="exercise-011">011</a><br>
-  <a href="exercise-012">012</a><br>
-  <a href="exercise-013">013</a><br>
-  <a href="exercise-014">014</a><br>
-  <a href="exercise-015">015</a><br>
-  <a href="exercise-016">016</a><br>
-  <a href="exercise-017">017</a><br>
-  <a href="exercise-018">018</a><br>
-  <a href="exercise-019">019</a><br>
-  <a href="exercise-020">020</a><br>
-  <a href="exercise-021">021</a><br>
-  <a href="exercise-022">022</a><br>
-  <a href="exercise-023">023</a><br>
-  <a href="exercise-024">024</a><br>
-  <a href="exercise-025">025</a><br>
+.top-left{
+  flex: 50%
+}
+
+.top-right {
+  flex: 50%
+  align: right;
+}
+
+.bottom-left {
+  flex: 50%
+}
+
+.bottom-right {
+  flex: 50%
+  align: right;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1
+}
+
+.title div{
+  width: 100px;
+  height: 100px;
+}
+</style>
+
+<body>
+<div class="container">
+
+  <div class="top-left">
+    <a href="p01/index.html">p 01</a>
+  </div>
+
+  <div class="top-right">
+    <a href="p02/index.html">p 02</a>
+  </div>
+
+  <div class="bottom-left">
+    <a href="p03/index.html">p 03</a>
+  </div>
+  <div class="bottom-right">
+    <a href="p04/index.html">p 04</a>
+  </div>
+
+  <div class="title">
+    WRITING<br>
+    as<br>
+    METADATA
+  </div>
+</div>
 
 </body>
 
