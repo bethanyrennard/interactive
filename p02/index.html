@@ -7,14 +7,33 @@
     <link rel="stylesheet" href="assets/main.css" type="text/css" />
 </head>
 
-<body>
-<p>
-  placeholder
-</p>
+<style>
 
-<img src="/images/002.jpg" alt="mirror">
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.photos {
+    width: 100px;
+    height: auto;
+  }
+
+.text {
+  z-index: 2;
+}
+
+</style>
+<body>
+<div class="flex-container">
+  <div class="photos"><img src="images/001.jpg" alt="haircut face"></div>
+  <div class="photos"><img src="images/002.jpg" alt="haircut face"></div>
+  <div class="photos"><img src="images/003.jpg" alt="haircut face"></div>
+
 </div>
 
+  <div class="text">
+    what makes a good photo
+  </div>
 </body>
 
 </html>
