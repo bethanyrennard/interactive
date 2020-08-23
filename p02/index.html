@@ -7,33 +7,18 @@
     <link rel="stylesheet" href="assets/main.css" type="text/css" />
 </head>
 
-<style>
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-.photos {
-    width: 100px;
-    height: auto;
-  }
-
-.text {
-  z-index: 2;
-}
-
-</style>
 <body>
-<div class="flex-container">
-  <div class="photos"><img src="images/001.jpg" alt="haircut face"></div>
-  <div class="photos"><img src="images/002.jpg" alt="haircut face"></div>
-  <div class="photos"><img src="images/003.jpg" alt="haircut face"></div>
+<p> click the fan to find a face </p>
+<img src="images/003.jpg" alt="make it rain" usemap="#photomap" width="603" height="900">
+
+  <map name="photomap">
+    <area shape="circle" coords="275, 250, 75" alt="001" href="images/002.jpg">
+    <area shape="rect" coords="200,200" alt="Phone" href="phone.htm">
+    <area shape="rect" coords="300,300" alt="Cup of coffee" href="coffee.htm">
+  </map>
 
 </div>
 
-  <div class="text">
-    what makes a good photo
-  </div>
 </body>
 
 </html>
